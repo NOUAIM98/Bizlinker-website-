@@ -1,0 +1,52 @@
+.company-container {
+    display: flex;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .company-sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .company-sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .company-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #efefef;
+    font-size: 16px;
+    padding: 10px 0;
+    transition: 0.3s;
+  }
+  
+  .sidebar-link:hover,
+  .sidebar-link.active {
+    color: #ffffff;
+  }
+  
+  .company-content {
+    flex: 1; 
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+  
