@@ -1,0 +1,120 @@
+.info {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.providerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px; 
+    margin-bottom: 10px;
+}
+
+.providerImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #d1d1d1;
+}
+
+.providerName {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contactGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.website {
+    font-size: 16px;
+    color: #FF5900;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.website:hover {
+    text-decoration: underline;
+}
+
+.contactInfo, .location, .price {
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.price {
+    color: #009d12;
+    font-weight: bold;
+
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.sendMessage, .buyService {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 40px;
+}
+
+.sendMessage {
+    color: #4f4f4f;
+    border: 1px solid #c3c3c3;
+    background: #fafafa !important;
+}
+
+.sendMessage:hover {
+    opacity: 0.8;
+}
+
+.buyService {
+    border: none;
+    background: #FF5900 !important;
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .info {
+        padding: 15px;
+    }
+    .providerName {
+        font-size: 18px;
+    }
+    .contactInfo {
+        font-size: 13px;
+    }
+}
+
+.stars, .reviews{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #FF5900;
+}

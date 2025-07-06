@@ -1,0 +1,117 @@
+html, body, root {
+  background-color: #fefefe;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.center-text {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Inter', serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.business-container {
+  background-color: #fefefe;  
+  padding-bottom: 100px;
+
+
+}
+.event-container {
+  background-color: #fefefe;
+  padding-bottom: 50px;
+
+}
+
+
+.center-info {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  display: flex;
+  font-family: inter;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.browse-button-event,
+.browse-button-service,
+.browse-button-admin {
+  display: block;
+  margin: 20px auto 0;
+  padding: 16px 50px;
+  background-color: #FF5900;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.browse-button-event:hover,
+.browse-button-service:hover,
+.browse-button-admin:hover {
+  background-color: #ff7a32;
+}
+
+.service-text {
+  color: #000F07;
+  padding-top: 80px;
+  font-size: 36px;
+  text-align: left;
+  padding-left: 120px;
+  font-family: 'Caudex', serif;
+}
+
+.service-container {
+
+  padding-bottom: 100px;
+  background-color: #F6ECE7;
+  
+
+}
+
+.info-t {
+  font-size: 20px;
+  width: 500px;
+  font-weight: normal;
+  padding-left: 120px;
+  text-align: left;
+}
+.admin-text {
+  padding-top:  100px;
+  padding-bottom:  100px;
+  background-color: rgb(255, 255, 255);
+
+}
+.browse-button-admin{
+  background-color: #ff9d9d
+}
+.browse-button-admin:hover{
+  background-color: #ff6464
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

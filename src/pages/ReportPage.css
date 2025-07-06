@@ -1,0 +1,109 @@
+.report-page {
+  font-family: Arial, sans-serif;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.report-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.report-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.report-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.report-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.report-list {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.report-item {
+  padding: 20px;
+  margin-bottom: 15px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.report-item:hover {
+  background: #f5f5f5;
+  transform: translateY(-3px);
+}
+
+.report-item p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.report-detail {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-top: 20px;
+}
+
+.report-detail h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.report-detail p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 15px;
+}
+
+.back-btn {
+  background-color: #ff5900;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #cc4a00;
+}

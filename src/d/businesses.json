@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Nima Restaurant & Lounge Bar",
+        "breadcrumb": "Restaurants > Cyprus Restaurants > Kyrenia Restaurants > Nima Restaurant & Lounge Bar",
+        "rating": 5.0,
+        "reviews": 949,
+        "contact": {
+            "website": "http://nimacyprus.com",
+            "phone": "1232820897",
+            "email": "nimacyprus@lounge.com",
+            "hours": "10:00 - 00:00",
+            "status": "Closed"
+        },
+        "about": "Nima Garden is a refined garden restaurant...",
+        "location": "Canbulat Cad. No: 37, Kyrenia 99300 Cyprus",
+        "workingHours": [
+            {
+                "day": "Mon",
+                "hours": "10:00 AM - 23:00 PM"
+            },
+            {
+                "day": "Tue",
+                "hours": "10:00 AM - 23:00 PM"
+            },
+            {
+                "day": "Wed",
+                "hours": "10:00 AM - 23:00 PM"
+            },
+            {
+                "day": "Thu",
+                "hours": "10:00 AM - 23:00 PM"
+            },
+            {
+                "day": "Fri",
+                "hours": "10:00 AM - 02:00 AM"
+            },
+            {
+                "day": "Sat",
+                "hours": "10:00 AM - 02:00 AM"
+            },
+            {
+                "day": "Sun",
+                "hours": "10:00 AM - 23:00 PM"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Another Business",
+        "breadcrumb": "Restaurants > Another Location",
+        "rating": 4.8,
+        "reviews": 430,
+        "contact": {
+            "website": "http://anotherbusiness.com",
+            "phone": "9876543210",
+            "email": "contact@anotherbusiness.com",
+            "hours": "09:00 - 21:00",
+            "status": "Open"
+        },
+        "about": "Another business offering amazing services...",
+        "location": "Main Street 42, Kyrenia 99300 Cyprus",
+        "workingHours": [
+            {
+                "day": "Mon",
+                "hours": "09:00 AM - 21:00 PM"
+            },
+            {
+                "day": "Tue",
+                "hours": "09:00 AM - 21:00 PM"
+            }
+        ]
+    }
+]
