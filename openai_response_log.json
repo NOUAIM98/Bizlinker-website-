@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-BZOdDpErDds4U59ZYjR98kFyqPpb2",
+  "object": "chat.completion",
+  "created": 1747775863,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Customers overwhelmingly praise the outstanding service provided by the individual, calling it top-tier, perfect, and the best. Many describe the experience as amazing, with one user even adding a playful \"meow\" to express their satisfaction. The consistent theme throughout the reviews is of high quality, exceptional service, and a positive tone overall. Customers repeatedly use terms like \"wow,\" \"very nice,\" and emphasize the exceptional service they received.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 85,
+    "total_tokens": 176,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
